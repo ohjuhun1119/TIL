@@ -52,7 +52,7 @@ QLoRA(Quantized LoRA)
 
 모델은 학습 때 본 제어 토큰 순서로 역할(system, user, assistant)을 구분.  
 
-문자열을 손으로 이러 붙이지 않고 apply_chat_template이 이 형식을 만들어 줌.  
+문자열을 손으로 이어 붙이지 않고 apply_chat_template이 이 형식을 만들어 줌.  
 
 add_generation_prompt=True는 끝에 assistant 시작 표시를 붙여서 "여기서부터 답하라"는 위치를 알려줌.
 
